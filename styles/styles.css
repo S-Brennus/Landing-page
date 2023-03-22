@@ -9,14 +9,14 @@ justify-content: space-between;
 header {
   display:flex;
   flex-direction:column;
-  gap: 20px;
 }
 
 .header-top {
   display:flex;
   justify-content:center;
   align-items: center;
-  margin: 15px;
+  margin:15px 10px;
+  margin-bottom:0;
 }
 
 .header-bottom {
@@ -25,7 +25,9 @@ header {
   flex:1;
   justify-content: center;
   align-items:center;
-  margin: 15px;
+  padding: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .logo, .links {
