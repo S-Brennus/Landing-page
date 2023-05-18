@@ -128,6 +128,7 @@ align-self:center;
 .content-3 {
 align-self: center;
 display: flex;
+flex-shrink: 1;
 flex-direction: row;
 align-items:center;
 justify-content: space-between;
@@ -142,6 +143,7 @@ max-width: 1000px;
 .c3text {
 color:#E5E7EB;
 font-size: 18px;
+
 }
 
 .sign-up2 {
